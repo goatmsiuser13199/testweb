@@ -1,4 +1,4 @@
-fetch('exemple.json')
+fetch('../../exemple.json')
   .then(response => response.json())
   .then(data => {
     document.getElementById("phrase1").innerHTML = data.phrase1;
